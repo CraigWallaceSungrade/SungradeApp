@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# SungradeTest
+>>>>>>> 9ab11adfa69b87bc41bf8e4a111b316ea53dcbc4
