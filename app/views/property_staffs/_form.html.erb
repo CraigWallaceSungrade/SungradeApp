@@ -1,0 +1,17 @@
+<%= form_with(model: property_staff, local: true) do |form| %>
+  <% if property_staff.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(property_staff.errors.count, "error") %> prohibited this property_staff from being saved:</h2>
+
+      <ul>
+      <% property_staff.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
